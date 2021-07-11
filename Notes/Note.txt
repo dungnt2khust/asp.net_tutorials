@@ -1,0 +1,10 @@
+Tổng quan về mô hình MVC
+
+1. Cấu trúc lập trình web hiện hay:
+    chia 3 tầng: 
+        - Presentation Layer, business logic layer, data acccess layer
+
+
+2 cách truyền dữ liệu từ model ra view 
+    + Dùng ViewBag: gọi ViewBag và gán biến vào sau đó dùng trong view (gõ @)
+    + Tạo một đối tượng Model, khai báo trong view (@model) và in thông tin ra 

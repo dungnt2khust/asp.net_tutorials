@@ -1,0 +1,8 @@
+Install packages petapoco để load cơ sở dữ liệu vào và cấu hình connection với csdl sau đó gọi đến đối tượng model để truy xuất
+
+1. Chuột phải vào solution -> manage packages 
+2. thay đổi chuỗi kế nối trong web.config: tiếp theo là copy lại tên của chuỗi kết nối
+đem qua file database.tt của thằng petapoco, paste vào connectionStringName
+3. Thêm thư mục BUS, tạo class SanPhamBus, viết hàm trả về danh sách sản phẩm
+
+Phân trang: install pagelist (index nhận vào int page=1, pagesize=4) return
